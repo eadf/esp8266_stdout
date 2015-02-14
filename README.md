@@ -1,6 +1,8 @@
 # esp8266_stdout
 A clone of Jeroen Domburg's (<jeroen@spritesmods.com>) stdout driver.
-It's an alternative uart driver that only uses the TX pin, so the RX pin is free for other GPIO use.
+It's an alternative uart driver that only uses the TX pin, so the RX pin is free for GPIO use.
+
+Needless to say, but this driver can only transmit.
 
 ###License:
   "THE BEER-WARE LICENSE" (Revision 42):
